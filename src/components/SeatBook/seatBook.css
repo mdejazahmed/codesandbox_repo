@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.screen {
+  margin-top: 16px;
+  background: #def6f6;
+  color: rgb(105, 104, 103);
+}
+.seatContainer {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.seat {
+  padding: 16px;
+  border: 2px solid;
+}
+.bookedSeat {
+  background: rgb(226, 224, 224);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.selectedSeat {
+  background: rgb(9, 239, 70);
+  cursor: pointer;
+}
+.availableSeat {
+  cursor: pointer;
+}
